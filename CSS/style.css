@@ -30,7 +30,8 @@ h1{
 h4{
   color: white;
   float: left;
-  margin: 2px 10px;
+  margin: 5px 10px;
+  margin-right: 50px;
 }
 
 header {
@@ -38,10 +39,11 @@ header {
 }
 
 .container{
-  background-color: blueviolet;
   height: 300px;
-  padding: 0 300px;
+  padding: 0 100px;
+  margin: 0 100px;
 }
+
 
 main .container{
   max-width: 1170px;
@@ -59,6 +61,12 @@ main .container{
   padding: 0;
   width: 300px;
   height: 80px;
+  float: left;
+  margin: 20px 15px;
+  text-align: center;
+  border: 1px solid;
+  box-shadow: 10px 3px 5px #dedede;
+  
 }
 
 .professione{
@@ -70,8 +78,13 @@ main .container{
 
 .email a{
   float: left;
-
   font-size: 14px;
+  margin: 2px 10px;
+  color: #17CCF2;
+}
+
+.profili{
+  text-align: center;
 }
 
 
